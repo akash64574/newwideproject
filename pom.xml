@@ -69,21 +69,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<scm>
-           <connection>scm:https://github.com/akash64574/newwideproject.git</connection>
-           <url>https://github.com/akash64574/newwideproject.git</url>
-           <developerConnection>scm:git:https://github.com/akash64574/newwideproject.git</developerConnection>
-           <tag>1.1</tag>
-        </scm>
+	
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
 			<url>http://3.18.144.73:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
-		<repository>
-			<id>nexus</id>
-			<url>http://3.18.144.73:8081/nexus/content/repositories/releases</url>
-		<repository>
+		
 	</distributionManagement>
 	
 
